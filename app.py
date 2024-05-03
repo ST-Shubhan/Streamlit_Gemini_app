@@ -3,7 +3,6 @@ import google.generativeai as genai
 from PIL import Image
 import os
 import streamlit as st
-from langchain_community.document_loaders import WebBaseLoader
 from dotenv import load_dotenv
 
 load_dotenv()
